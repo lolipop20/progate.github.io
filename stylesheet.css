@@ -17,7 +17,7 @@ a {
 }
 
 .container {
-  max-width: 1170px;
+  max-width: 100%;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -103,14 +103,17 @@ header {
 
 .lesson-wrapper {
   text-align: center;
-  display: flex;
 }
 
 .lesson {
-  margin: 30px;
   flex: auto;
   justify-content: space-evenly;
   float: right;
+}
+
+.lessons {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .lesson-icon {
@@ -134,7 +137,7 @@ header {
 }
 
 .bio-wrapper {
-  padding: 5px 5%;
+  padding: 40px 5%;
   background-color: #f4f4f4;
   text-align-last: center;
   justify-content: center;
@@ -142,7 +145,7 @@ header {
 
 input,
 textarea {
-  width: 500px;
+  width: 350px;
   margin: 10px 0px 30px 0px;
   border-radius: 5px;
   border: 1px solid #dee7ec;
